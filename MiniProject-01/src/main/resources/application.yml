@@ -1,0 +1,18 @@
+server:
+  port: 8282
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    password: nogesh
+    url: jdbc:h2:mem:testdb
+    username: nogesh
+plan-api:
+ messages:
+  planSaveSucc: Plan Saved Successfully
+  planSaveFail: Plan Saving Failed
+  planUpdateSucc: Plan Update Successfully
+  planUpdateFail: Plan Update Failed
+  planDeleteSucc: Plan Deleted Successfully
+  planDeleteFail: Plan Delete Failed
+  planStatusChangeSucc: Plan Status Change Successfully
+  planStatusChangeFail: Plan Status Change Failed
